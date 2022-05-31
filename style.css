@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+.flex-container > div {
+    background-color: #F7F3EF;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    border-style: double;
+  }
+  form{
+border-color:  antiquewhite;
+text-align: center;
+  }
