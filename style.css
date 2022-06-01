@@ -1,17 +1,35 @@
+
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: right;
   }
 .flex-container > div {
     background-color: #F7F3EF;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
+    line-height:32px;
     font-size: 25px;
-    border-style: double;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
   form{
 border-color:  antiquewhite;
 text-align: center;
+  }
+  .buscador{
+      border: 3px black;
+      border-radius: 10px;
+      border-style: solid;
+      height: 40px;
+      width: 600px;
+      padding: 5px;
+  }
+  .buscador2{
+    position: fixed;
+    left: 28%;
+    top: 50%;
+  }
+  .back_button{
+      margin: 20px;
   }
